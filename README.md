@@ -5,5 +5,5 @@
 
 
 #Want to suggest new emo ?
-Pls contact me (b4lmung) directly via PM (gcon)
+Pls contact me (b4lmung) directly via PM
 
