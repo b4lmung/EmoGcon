@@ -1,9 +1,9 @@
-# How to install
-1. Install [greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) or [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) on your browser.
-2. Install [script](https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.user.js).
-3. Done !
+# วิธีการใช้งาน
+1. Install Add-on ก่อน  ถ้าใช้ Firefox ก็ให้ใช้ [greasemonkey](https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/) หรือถ้าใช้ Chrome ก็โหลด [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en).
+2. กดโหลดสคริปต์ที่ลิงค์นี้ [script](https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.user.js).
+3. จบ ใช้งานได้ตามปกติ
 
 
-#Want to suggest new emo ?
-Pls contact me (b4lmung) directly via PM
+#เสนอแนะ Emo ใหม่ๆ ?
+กรุณาส่ง PM มาโดยตรงในจีคอน (b4lmung)
 
