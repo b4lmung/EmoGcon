@@ -28,7 +28,7 @@ function clickTouhou(zEvent) {
 }
 
 var emolist = document.getElementById('input-option-emoticon');
-emolist.innerHTML += "<img id='kanade' width=\'45\' height=\'45\' src=\'http://i.imgur.com/YdNz2ac.jpg\' /><img id='miku' width=\'45\' height=\'45\' src=\'http://i.imgur.com/O3p0gdL.png\' /><img id='anime' width=\'45\' height=\'45\' src=\'http://i.imgur.com/DW037oL.png\' /><img id='eddie' width=\'45\' height=\'45\' src=\'http://i.imgur.com/FV9Y8AIb.jpg\' /><img id='touhou' width=\'45\' height=\'45\' src=\'http://i.imgur.com/0pn3Ciqb.jpg\' />";
+emolist.innerHTML += "<img id='kanade' width=\'45\' height=\'45\' src=\'http://i.imgur.com/YdNz2ac.jpg\' /><img id='miku' width=\'45\' height=\'45\' src=\'http://i.imgur.com/O3p0gdL.png\' /><img id='anime' width=\'45\' height=\'45\' src=\'http://i.imgur.com/DW037oL.png\' /><img id='touhou' width=\'45\' height=\'45\' src=\'http://i.imgur.com/0pn3Ciqb.jpg\' /><img id='eddie' width=\'45\' height=\'45\' src=\'http://i.imgur.com/FV9Y8AIb.jpg\' />";
 document.getElementById('kanade').setAttribute('onclick', '');
 document.getElementById('kanade').addEventListener('click', clickKanade, false);
 
