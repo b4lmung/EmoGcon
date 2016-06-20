@@ -5,9 +5,10 @@
 // @include     http://www.gconhub.com/*
 // @version     1.9
 // @downloadURL https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.user.js
-// @updateURL   https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.user.js
+// @updateURL   https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.meta.js
 // @grant       none
 // ==/UserScript==
+
 
 
 function clickKanade(zEvent) {
