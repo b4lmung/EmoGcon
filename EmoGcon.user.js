@@ -3,7 +3,7 @@
 // @namespace   gconhub.com
 // @include     http://gconhub.com/*
 // @include     http://www.gconhub.com/*
-// @version     2.0.2
+// @version     2.0.3
 // @downloadURL https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.user.js
 // @updateURL   https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.meta.js
 // @grant       none
@@ -37,7 +37,7 @@ function clickController(zEvent){
 }
 
 var emolist = document.getElementById('input-option-emoticon');
-emolist.innerHTML += '<div><img id=\'kanade\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/YdNz2ac.jpg\' /><img id=\'miku\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/O3p0gdL.png\' /><img id=\'anime\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/DW037oL.png\' /><img id=\'touhou\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/0pn3Ciqb.jpg\' /><img id=\'kantai\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/mdJ3OkOb.jpg\' /><img id=\'cat\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/TVM6CNj.png\' /><img id=\'eddie\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/FV9Y8AIb.jpg\' /><img id=\'cat\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/TVM6CNj.png\' /><img id=\'controller\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/NhyW8rD.png\' /></div>';
+emolist.innerHTML += '<div><img id=\'kanade\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/YdNz2ac.jpg\' /><img id=\'miku\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/O3p0gdL.png\' /><img id=\'anime\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/DW037oL.png\' /><img id=\'touhou\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/0pn3Ciqb.jpg\' /><img id=\'kantai\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/mdJ3OkOb.jpg\' /><img id=\'cat\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/TVM6CNj.png\' /><img id=\'eddie\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/FV9Y8AIb.jpg\' /><img id=\'controller\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/NhyW8rD.png\' /></div>';
 document.getElementById('kanade').addEventListener('click', clickKanade, false);
 document.getElementById('miku').addEventListener('click', clickMiku, false);
 document.getElementById('anime').addEventListener('click', clickAnimeOhayou, false);
