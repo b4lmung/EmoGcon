@@ -3,7 +3,7 @@
 // @namespace   gconhub.com
 // @include     http://gconhub.com/*
 // @include     http://www.gconhub.com/*
-// @version     2.0.8
+// @version     2.0.9
 // @downloadURL https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.user.js
 // @updateURL   https://github.com/b4lmung/EmoGcon/raw/master/EmoGcon.meta.js
 // @grant       none
@@ -57,6 +57,15 @@ function clickYokoTaro(zEvent){
 }
 
 
+function clickManga(zEvent){
+     document.getElementById('form-block-emo').innerHTML = '<img onclick=\'javascript:insert("http://i.imgur.com/CMlzXF3.jpg?1");\' width=\'75\' height=\'75\' src=\'http://i.imgur.com/CMlzXF3.jpg?1\'/><img onclick=\'javascript:insert("http://i.imgur.com/on3uYWP.jpg?1");\' width=\'75\' height=\'75\' src=\'http://i.imgur.com/on3uYWP.jpg?1\'/><img onclick=\'javascript:insert("http://i.imgur.com/QgebFhG.jpg");\' width=\'125\' height=\'50\' src=\'http://i.imgur.com/QgebFhG.jpg\'/><img onclick=\'javascript:insert("http://i.imgur.com/wHPfzXL.jpg");\' width=\'125\' height=\'50\' src=\'http://i.imgur.com/wHPfzXL.jpg\'/><img onclick=\'javascript:insert("http://i.imgur.com/fHDELXi.jpg");\' width=\'125\' height=\'50\' src=\'http://i.imgur.com/fHDELXi.jpg\'/><img onclick=\'javascript:insert("http://i.imgur.com/0q5gN1C.jpg");\' width=\'125\' height=\'50\' src=\'http://i.imgur.com/0q5gN1C.jpg\'/><img onclick=\'javascript:insert("http://i.imgur.com/jtIvQCb.jpg");\' width=\'125\' height=\'50\' src=\'http://i.imgur.com/jtIvQCb.jpg\'/><img onclick=\'javascript:insert("http://i.imgur.com/Kz1s92b.jpg");\' width=\'125\' height=\'50\' src=\'http://i.imgur.com/Kz1s92b.jpg\'/><img onclick=\'javascript:insert("http://i.imgur.com/Q2E39eb.jpg");\' width=\'125\' height=\'50\' src=\'http://i.imgur.com/Q2E39eb.jpg\'/><img onclick=\'javascript:insert("http://i.imgur.com/hrx7vf1.jpg");\' width=\'125\' height=\'50\' src=\'http://i.imgur.com/hrx7vf1.jpg\'/>';
+         
+}
+
+
+
+
+
 var emolist = document.getElementById('input-option-emoticon');
 
 
@@ -74,7 +83,7 @@ var text = '<div>'
          + '<img id=\'masaka\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/hg4HaI5.jpg?1\' />'
          + '<img id=\'lnwgame\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/kErOcnL.jpg\' />'
         + '<img id=\'YokoTaro\' width=\'45\' height=\'45\' src=\'http://i.imgur.com/0Qk8EK3.png\' />'
-       
+        + '<img id=\'manga\' width=\'75\' height=\'45\' src=\'http://i.imgur.com/QgebFhG.png\' />'
         + '</div>';
 
 emolist.innerHTML += text;
@@ -91,7 +100,7 @@ document.getElementById('gif1').addEventListener('click', clickGif1, false);
 document.getElementById('masaka').addEventListener('click', clickMasaka, false);
 document.getElementById('lnwgame').addEventListener('click', clickLnwGame, false);
 document.getElementById('YokoTaro').addEventListener('click', clickYokoTaro, false);
-
+document.getElementById('manga').addEventListener('click', clickManga, false);
 var script = document.createElement('script');    // create the script element
 script.innerHTML = 'function insert(e){var t="[img]"+e+"[/img]",a=document.getElementById("message"),c=a.scrollTop,l=0,n=a.selectionStart||"0"==a.selectionStart?"ff":document.selection?"ie":!1;if("ie"==n){a.focus();var r=document.selection.createRange();r.moveStart("character",-a.value.length),l=r.text.length}else"ff"==n&&(l=a.selectionStart);var o=a.value.substring(0,l),s=a.value.substring(l,a.value.length);if(a.value=o+t+s,l+=t.length,"ie"==n){a.focus();var r=document.selection.createRange();r.moveStart("character",-a.value.length),r.moveStart("character",l),r.moveEnd("character",0),r.select()}else"ff"==n&&(a.selectionStart=l,a.selectionEnd=l,a.focus());a.scrollTop=c}';
 document.getElementsByTagName('head')[0].appendChild(script);
